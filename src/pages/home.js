@@ -1,4 +1,5 @@
 import { strategyIllustration, smartContractIllustration, securityIllustration, defiIllustration, blockchainIllustration } from '../components/illustrations.js';
+import { heroIllustration } from '../components/hero-illustration.js';
 
 export function renderHome() {
   const main = document.createElement('main');
@@ -24,11 +25,14 @@ export function renderHome() {
               </button>
             </div>
           </div>
-          <div class="hidden md:block" data-aos="zoom-in">
-            <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-1 shadow-2xl">
-              <div class="bg-gray-900 rounded-lg p-8 h-96 flex items-center justify-center">
-                <div class="w-48 h-48 filter drop-shadow-lg">
-                  ${blockchainIllustration()}
+          <div class="hidden md:block" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 rounded-xl p-1 shadow-2xl hover:shadow-blue-500/50 transition-all duration-500">
+              <div class="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl p-8 h-96 flex items-center justify-center relative overflow-hidden">
+                <!-- Background glow -->
+                <div class="absolute inset-0 bg-radial-gradient from-blue-500/10 to-transparent rounded-xl"></div>
+                <!-- Main illustration -->
+                <div class="w-80 h-80 filter drop-shadow-2xl relative z-10 hover:drop-shadow-3xl transition-all duration-500">
+                  ${heroIllustration()}
                 </div>
               </div>
             </div>
