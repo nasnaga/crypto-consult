@@ -1,4 +1,5 @@
 // Crypto Consult - Web3 Consultancy Platform
+import './styles.css';
 import { renderHome } from './src/pages/home.js';
 import { renderServices } from './src/pages/services.js';
 import { renderAbout } from './src/pages/about.js';

@@ -21,7 +21,6 @@
   ],
   "author": "nasnaga",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
     "@testing-library/dom": "^10.4.1",

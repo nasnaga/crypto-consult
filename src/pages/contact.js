@@ -193,7 +193,7 @@ export function renderContact() {
           // Fallback: Show email instruction
           const messageDiv = document.getElementById('formMessage');
           messageDiv.className = 'block p-4 rounded-lg text-center bg-blue-900 text-blue-300';
-          messageDiv.innerHTML = \`✓ Thank you! Please email your message to <strong>contact@nasnaga.com.au</strong> with the following details:\n\n\${JSON.stringify(data, null, 2)}\`;
+          messageDiv.innerHTML = '✓ Thank you! Please email your message to <strong>contact@nasnaga.com.au</strong> with the details submitted above.';
           form.reset();
         }
       });
