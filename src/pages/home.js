@@ -1,5 +1,4 @@
 import { strategyIllustration, smartContractIllustration, securityIllustration, defiIllustration, blockchainIllustration } from '../components/illustrations.js';
-import { heroIllustration } from '../components/hero-illustration.js';
 
 export function renderHome() {
   const main = document.createElement('main');
@@ -26,13 +25,63 @@ export function renderHome() {
             </div>
           </div>
           <div class="hidden md:block" data-aos="zoom-in" data-aos-duration="1000">
-            <div class="bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 rounded-xl p-1 shadow-2xl hover:shadow-blue-500/50 transition-all duration-500">
-              <div class="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl p-8 h-96 flex items-center justify-center relative overflow-hidden">
-                <!-- Background glow -->
-                <div class="absolute inset-0 bg-radial-gradient from-blue-500/10 to-transparent rounded-xl"></div>
-                <!-- Main illustration -->
-                <div class="w-80 h-80 filter drop-shadow-2xl relative z-10 hover:drop-shadow-3xl transition-all duration-500">
-                  ${heroIllustration()}
+            <!-- Credit Card Container -->
+            <div class="flex justify-center items-center">
+              <div class="relative w-full max-w-sm">
+                <!-- Card Shadow/Depth -->
+                <div class="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 rounded-3xl blur-lg opacity-50"></div>
+
+                <!-- Main Credit Card -->
+                <div class="relative bg-gradient-to-br from-yellow-100 via-yellow-50 to-amber-100 rounded-3xl p-8 shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+                  <!-- Metallic texture overlay -->
+                  <div class="absolute inset-0 rounded-3xl opacity-20" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%, transparent 50%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.05) 75%, transparent 75%, transparent); background-size: 4px 4px;"></div>
+
+                  <!-- Card top shine -->
+                  <div class="absolute top-0 left-1/4 right-0 h-24 bg-gradient-to-b from-white to-transparent rounded-full opacity-30 blur-xl"></div>
+
+                  <!-- Content -->
+                  <div class="relative z-10">
+                    <!-- Top section with chip -->
+                    <div class="flex justify-between items-start mb-8">
+                      <!-- Chip -->
+                      <div class="w-14 h-12 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-lg shadow-md" style="background: linear-gradient(135deg, #eab308 0%, #b45309 100%); box-shadow: inset 0 2px 4px rgba(0,0,0,0.2), 0 4px 8px rgba(0,0,0,0.15);"></div>
+                      <!-- Text label -->
+                      <span class="text-xs font-bold text-amber-900 opacity-60">VALID THRU</span>
+                    </div>
+
+                    <!-- Middle section - Crypto Symbols -->
+                    <div class="mb-8">
+                      <div class="flex justify-around items-center py-6 px-4 bg-gradient-to-r from-yellow-200/30 to-amber-200/30 rounded-2xl backdrop-blur-sm">
+                        <!-- Bitcoin -->
+                        <div class="text-center">
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">₿</div>
+                          <p class="text-xs font-semibold text-amber-900">BITCOIN</p>
+                        </div>
+                        <!-- Ethereum -->
+                        <div class="text-center">
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">Ξ</div>
+                          <p class="text-xs font-semibold text-amber-900">ETHEREUM</p>
+                        </div>
+                        <!-- Solana -->
+                        <div class="text-center">
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">◎</div>
+                          <p class="text-xs font-semibold text-amber-900">SOLANA</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Bottom section -->
+                    <div class="flex justify-between items-end">
+                      <div>
+                        <p class="text-xs text-amber-900/50 uppercase tracking-widest">Cardholder</p>
+                        <p class="text-sm font-bold text-amber-950 mt-1">Crypto Consult</p>
+                      </div>
+                      <div class="text-right">
+                        <p class="text-xs text-amber-900/50 uppercase tracking-widest">CVV</p>
+                        <p class="text-sm font-mono font-bold text-amber-950 mt-1">WEB3</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
