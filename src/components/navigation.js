@@ -6,7 +6,7 @@ export function renderNavigation(currentPage) {
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <div class="flex items-center space-x-8">
         <a href="#" onclick="navigateTo('home'); return false;" class="text-2xl font-bold text-white hover:text-blue-400 transition">
-          ₿ Crypto Consult
+          ₿ ChainVault
         </a>
         <ul class="hidden md:flex space-x-6">
           <li><a href="#" onclick="navigateTo('home'); return false;" class="text-gray-400 hover:text-white transition ${currentPage === 'home' ? 'text-blue-400' : ''}">Home</a></li>

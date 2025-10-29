@@ -74,7 +74,7 @@ export function renderHome() {
                     <div class="flex justify-between items-end">
                       <div>
                         <p class="text-xs text-amber-900/50 uppercase tracking-widest">Cardholder</p>
-                        <p class="text-sm font-bold text-amber-950 mt-1">Crypto Consult</p>
+                        <p class="text-sm font-bold text-amber-950 mt-1">ChainVault</p>
                       </div>
                       <div class="text-right">
                         <p class="text-xs text-amber-900/50 uppercase tracking-widest">CVV</p>
@@ -126,7 +126,7 @@ export function renderHome() {
     <!-- Why Choose Us -->
     <section class="bg-gray-800 py-20">
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold text-white mb-12 text-center" data-aos="fade-up">Why Choose Crypto Consult</h2>
+        <h2 class="text-4xl font-bold text-white mb-12 text-center" data-aos="fade-up">Why Choose ChainVault</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="flex gap-4 bg-gray-900 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition" data-aos="fade-up" data-aos-delay="0">
             <div class="text-4xl transform hover:scale-125 transition">⭐</div>
