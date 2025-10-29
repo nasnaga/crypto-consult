@@ -27,12 +27,12 @@ export function renderHome() {
           <div class="hidden md:block" data-aos="zoom-in" data-aos-duration="1000">
             <!-- Credit Card Container -->
             <div class="flex justify-center items-center">
-              <div class="relative w-full max-w-sm">
+              <div class="relative w-full max-w-2xl">
                 <!-- Card Shadow/Depth -->
                 <div class="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 rounded-3xl blur-lg opacity-50"></div>
 
                 <!-- Main Credit Card -->
-                <div class="relative bg-gradient-to-br from-yellow-100 via-yellow-50 to-amber-100 rounded-3xl p-8 shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+                <div class="relative bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-3xl p-12 shadow-2xl transform -rotate-6 hover:rotate-0 transition-transform duration-500">
                   <!-- Metallic texture overlay -->
                   <div class="absolute inset-0 rounded-3xl opacity-20" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%, transparent 50%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.05) 75%, transparent 75%, transparent); background-size: 4px 4px;"></div>
 
