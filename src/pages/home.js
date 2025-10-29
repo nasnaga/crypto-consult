@@ -54,17 +54,17 @@ export function renderHome() {
                       <div class="flex justify-around items-center py-6 px-4 bg-gradient-to-r from-yellow-200/30 to-amber-200/30 rounded-2xl backdrop-blur-sm">
                         <!-- Bitcoin -->
                         <div class="text-center">
-                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">₿</div>
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform text-gray-900">₿</div>
                           <p class="text-xs font-semibold text-amber-900">BITCOIN</p>
                         </div>
                         <!-- Ethereum -->
                         <div class="text-center">
-                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">Ξ</div>
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform text-gray-900">Ξ</div>
                           <p class="text-xs font-semibold text-amber-900">ETHEREUM</p>
                         </div>
                         <!-- Solana -->
                         <div class="text-center">
-                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform">◎</div>
+                          <div class="text-5xl mb-2 transform hover:scale-110 transition-transform text-gray-900">◎</div>
                           <p class="text-xs font-semibold text-amber-900">SOLANA</p>
                         </div>
                       </div>
