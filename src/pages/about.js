@@ -5,7 +5,7 @@ export function renderAbout() {
     <!-- Header -->
     <section class="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-16">
       <div class="max-w-7xl mx-auto px-4">
-        <h1 class="text-5xl font-bold mb-4">About ChainVault</h1>
+        <h1 class="text-5xl font-bold mb-4">About CryptoRUs</h1>
         <p class="text-xl text-gray-300">Leading Web3 and blockchain consultancy firm.</p>
       </div>
     </section>
