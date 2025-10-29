@@ -1,3 +1,5 @@
+import { strategyIllustration, smartContractIllustration, securityIllustration, defiIllustration } from '../components/illustrations.js';
+
 export function renderServices() {
   const main = document.createElement('main');
 
@@ -39,7 +41,7 @@ export function renderServices() {
             </ul>
           </div>
           <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-12 text-center border border-gray-700 hover:border-blue-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
-            <div class="text-8xl mb-4 transform hover:rotate-12 transition duration-300">📊</div>
+            <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${strategyIllustration()}</div>
             <p class="text-gray-400 text-lg">Strategic planning for Web3 transformation</p>
           </div>
         </div>
@@ -47,7 +49,7 @@ export function renderServices() {
         <!-- Service 2 -->
         <div class="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
           <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-12 text-center border border-gray-700 hover:border-blue-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
-            <div class="text-8xl mb-4 transform hover:rotate-12 transition duration-300">⚙️</div>
+            <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${smartContractIllustration()}</div>
             <p class="text-gray-400 text-lg">Custom smart contract development</p>
           </div>
           <div class="order-1 md:order-2">
@@ -99,7 +101,7 @@ export function renderServices() {
             </ul>
           </div>
           <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-12 text-center border border-gray-700 hover:border-red-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
-            <div class="text-8xl mb-4 transform hover:rotate-12 transition duration-300">🔒</div>
+            <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${securityIllustration()}</div>
             <p class="text-gray-400 text-lg">Enterprise-grade security solutions</p>
           </div>
         </div>
@@ -107,7 +109,7 @@ export function renderServices() {
         <!-- Service 4 -->
         <div class="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
           <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-12 text-center border border-gray-700 hover:border-green-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
-            <div class="text-8xl mb-4 transform hover:rotate-12 transition duration-300">💎</div>
+            <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${defiIllustration()}</div>
             <p class="text-gray-400 text-lg">DeFi protocol expertise</p>
           </div>
           <div class="order-1 md:order-2">
