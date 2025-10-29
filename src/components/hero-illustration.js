@@ -10,22 +10,25 @@ export function heroIllustration() {
           <stop offset="100%" style="stop-color:#1e40af;stop-opacity:0.15" />
         </linearGradient>
 
-        <radialGradient id="coin1Grad" cx="40%" cy="40%">
-          <stop offset="0%" style="stop-color:#fde047;stop-opacity:1" />
-          <stop offset="40%" style="stop-color:#facc15;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
+        <radialGradient id="coin1Grad" cx="35%" cy="35%">
+          <stop offset="0%" style="stop-color:#ffed4e;stop-opacity:1" />
+          <stop offset="30%" style="stop-color:#fde047;stop-opacity:1" />
+          <stop offset="60%" style="stop-color:#facc15;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#d4af37;stop-opacity:1" />
         </radialGradient>
 
-        <radialGradient id="coin2Grad" cx="40%" cy="40%">
-          <stop offset="0%" style="stop-color:#93c5fd;stop-opacity:1" />
-          <stop offset="40%" style="stop-color:#60a5fa;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+        <radialGradient id="coin2Grad" cx="35%" cy="35%">
+          <stop offset="0%" style="stop-color:#bfdbfe;stop-opacity:1" />
+          <stop offset="30%" style="stop-color:#93c5fd;stop-opacity:1" />
+          <stop offset="60%" style="stop-color:#60a5fa;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
         </radialGradient>
 
-        <radialGradient id="coin3Grad" cx="40%" cy="40%">
-          <stop offset="0%" style="stop-color:#d8b4fe;stop-opacity:1" />
-          <stop offset="40%" style="stop-color:#c084fc;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+        <radialGradient id="coin3Grad" cx="35%" cy="35%">
+          <stop offset="0%" style="stop-color:#e9d5ff;stop-opacity:1" />
+          <stop offset="30%" style="stop-color:#d8b4fe;stop-opacity:1" />
+          <stop offset="60%" style="stop-color:#c084fc;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
         </radialGradient>
 
         <linearGradient id="wireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -77,52 +80,52 @@ export function heroIllustration() {
       <circle cx="250" cy="250" r="12" fill="url(#coin2Grad)" opacity="0.3" r="16"/>
 
       <!-- Large main coins with 3D effect -->
-      <!-- Coin 1 (Left) - Bitcoin style -->
+      <!-- Coin 1 (Left) - Bitcoin -->
       <g transform="translate(130, 250)" filter="url(#heroShadow)">
         <!-- Main coin circle with bright gradient -->
         <circle cx="0" cy="0" r="45" fill="url(#coin1Grad)"/>
         <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="45" fill="white" opacity="0.15"/>
+        <circle cx="0" cy="0" r="45" fill="white" opacity="0.2"/>
         <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.25"/>
-        <!-- Text label background -->
-        <rect x="-28" y="-10" width="56" height="20" rx="10" fill="rgba(0,0,0,0.2)"/>
-        <!-- Bitcoin label -->
-        <text x="0" y="4" font-size="13" font-weight="bold" fill="white" text-anchor="middle" opacity="0.95">BITCOIN</text>
-        <!-- Shine -->
-        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.4"/>
+        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.35"/>
+        <!-- Bitcoin symbol ₿ -->
+        <text x="0" y="8" font-size="36" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">₿</text>
+        <!-- Intense shine -->
+        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.5"/>
+        <!-- Additional glow -->
+        <ellipse cx="10" cy="-15" rx="12" ry="8" fill="white" opacity="0.2"/>
       </g>
 
-      <!-- Coin 2 (Center-top) - Ethereum style -->
+      <!-- Coin 2 (Center-top) - Ethereum -->
       <g transform="translate(250, 110)" filter="url(#heroShadow)">
         <!-- Main coin circle with bright gradient -->
         <circle cx="0" cy="0" r="50" fill="url(#coin2Grad)"/>
         <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="50" fill="white" opacity="0.15"/>
+        <circle cx="0" cy="0" r="50" fill="white" opacity="0.2"/>
         <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="45" ry="12" fill="white" opacity="0.25"/>
-        <!-- Text label background -->
-        <rect x="-26" y="-8" width="52" height="18" rx="9" fill="rgba(0,0,0,0.2)"/>
-        <!-- Ethereum label -->
-        <text x="0" y="3" font-size="13" font-weight="bold" fill="white" text-anchor="middle" opacity="0.95">ETHEREUM</text>
-        <!-- Shine -->
-        <ellipse cx="-18" cy="-22" rx="18" ry="12" fill="white" opacity="0.4"/>
+        <ellipse cx="0" cy="0" rx="45" ry="12" fill="white" opacity="0.35"/>
+        <!-- Ethereum symbol Ξ -->
+        <text x="0" y="10" font-size="40" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">Ξ</text>
+        <!-- Intense shine -->
+        <ellipse cx="-18" cy="-22" rx="18" ry="12" fill="white" opacity="0.5"/>
+        <!-- Additional glow -->
+        <ellipse cx="12" cy="-18" rx="14" ry="10" fill="white" opacity="0.2"/>
       </g>
 
-      <!-- Coin 3 (Right) - Solana coin -->
+      <!-- Coin 3 (Right) - Solana -->
       <g transform="translate(370, 250)" filter="url(#heroShadow)">
         <!-- Main coin circle with bright gradient -->
         <circle cx="0" cy="0" r="45" fill="url(#coin3Grad)"/>
         <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="45" fill="white" opacity="0.15"/>
+        <circle cx="0" cy="0" r="45" fill="white" opacity="0.2"/>
         <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.25"/>
-        <!-- Text label background -->
-        <rect x="-25" y="-10" width="50" height="20" rx="10" fill="rgba(0,0,0,0.2)"/>
-        <!-- Solana label -->
-        <text x="0" y="4" font-size="13" font-weight="bold" fill="white" text-anchor="middle" opacity="0.95">SOLANA</text>
-        <!-- Shine -->
-        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.4"/>
+        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.35"/>
+        <!-- Solana symbol ◎ -->
+        <text x="0" y="8" font-size="38" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">◎</text>
+        <!-- Intense shine -->
+        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.5"/>
+        <!-- Additional glow -->
+        <ellipse cx="10" cy="-15" rx="12" ry="8" fill="white" opacity="0.2"/>
       </g>
 
       <!-- Connecting arrows/flow -->
