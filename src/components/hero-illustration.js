@@ -10,26 +10,19 @@ export function heroIllustration() {
           <stop offset="100%" style="stop-color:#1e40af;stop-opacity:0.15" />
         </linearGradient>
 
-        <radialGradient id="coin1Grad" cx="35%" cy="35%">
-          <stop offset="0%" style="stop-color:#ffed4e;stop-opacity:1" />
-          <stop offset="30%" style="stop-color:#fde047;stop-opacity:1" />
-          <stop offset="60%" style="stop-color:#facc15;stop-opacity:1" />
+        <!-- Gold credit card gradient -->
+        <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+          <stop offset="25%" style="stop-color:#fde047;stop-opacity:1" />
+          <stop offset="50%" style="stop-color:#fcd34d;stop-opacity:1" />
+          <stop offset="75%" style="stop-color:#f59e0b;stop-opacity:1" />
           <stop offset="100%" style="stop-color:#d4af37;stop-opacity:1" />
-        </radialGradient>
+        </linearGradient>
 
-        <radialGradient id="coin2Grad" cx="35%" cy="35%">
-          <stop offset="0%" style="stop-color:#bfdbfe;stop-opacity:1" />
-          <stop offset="30%" style="stop-color:#93c5fd;stop-opacity:1" />
-          <stop offset="60%" style="stop-color:#60a5fa;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
-        </radialGradient>
-
-        <radialGradient id="coin3Grad" cx="35%" cy="35%">
-          <stop offset="0%" style="stop-color:#e9d5ff;stop-opacity:1" />
-          <stop offset="30%" style="stop-color:#d8b4fe;stop-opacity:1" />
-          <stop offset="60%" style="stop-color:#c084fc;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
-        </radialGradient>
+        <!-- Metallic texture pattern -->
+        <pattern id="metalTexture" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+          <line x1="0" y1="0" x2="4" y2="4" stroke="#000000" stroke-width="0.5" opacity="0.05"/>
+        </pattern>
 
         <linearGradient id="wireGrad" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
@@ -75,88 +68,40 @@ export function heroIllustration() {
       <line x1="350" y1="150" x2="350" y2="350" stroke="url(#wireGrad)" stroke-width="1.5" opacity="0.4"/>
       <line x1="150" y1="350" x2="350" y2="350" stroke="url(#wireGrad)" stroke-width="1.5" opacity="0.4"/>
 
-      <!-- Center bright node -->
-      <circle cx="250" cy="250" r="12" fill="url(#coin2Grad)" filter="url(#heroShadow)"/>
-      <circle cx="250" cy="250" r="12" fill="url(#coin2Grad)" opacity="0.3" r="16"/>
+      <!-- Credit Card -->
+      <g transform="translate(250, 250) rotate(-15)" filter="url(#heroShadow)">
+        <!-- Card body with rounded corners -->
+        <rect x="-100" y="-65" width="200" height="130" rx="12" ry="12" fill="url(#cardGrad)"/>
+        <!-- Metallic texture overlay -->
+        <rect x="-100" y="-65" width="200" height="130" rx="12" ry="12" fill="url(#metalTexture)" opacity="0.3"/>
 
-      <!-- Large main coins with 3D effect -->
-      <!-- Coin 1 (Left) - Bitcoin -->
-      <g transform="translate(130, 250)" filter="url(#heroShadow)">
-        <!-- Main coin circle with bright gradient -->
-        <circle cx="0" cy="0" r="45" fill="url(#coin1Grad)"/>
-        <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="45" fill="white" opacity="0.2"/>
-        <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.35"/>
-        <!-- Bitcoin symbol ₿ -->
-        <text x="0" y="8" font-size="36" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">₿</text>
-        <!-- Intense shine -->
-        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.5"/>
-        <!-- Additional glow -->
-        <ellipse cx="10" cy="-15" rx="12" ry="8" fill="white" opacity="0.2"/>
+        <!-- Card top shine effect -->
+        <ellipse cx="-40" cy="-50" rx="60" ry="25" fill="white" opacity="0.15"/>
+
+        <!-- Chip indicator (top-left) -->
+        <rect x="-85" y="-50" width="20" height="20" rx="2" ry="2" fill="#d4af37" opacity="0.7"/>
+        <rect x="-82" y="-47" width="14" height="14" fill="none" stroke="#8b7506" stroke-width="0.5" opacity="0.5"/>
+
+        <!-- Bitcoin symbol (left side) -->
+        <text x="-60" y="-5" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" opacity="0.9">₿</text>
+
+        <!-- Ethereum symbol (center) -->
+        <text x="0" y="-5" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" opacity="0.9">Ξ</text>
+
+        <!-- Solana symbol (right side) -->
+        <text x="60" y="-5" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" opacity="0.9">◎</text>
+
+        <!-- Bottom accent line -->
+        <line x1="-95" y1="35" x2="95" y2="35" stroke="#d4af37" stroke-width="1.5" opacity="0.4"/>
+
+        <!-- Card edge highlight -->
+        <rect x="-100" y="-65" width="200" height="130" rx="12" ry="12" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
       </g>
 
-      <!-- Coin 2 (Center-top) - Ethereum -->
-      <g transform="translate(250, 110)" filter="url(#heroShadow)">
-        <!-- Main coin circle with bright gradient -->
-        <circle cx="0" cy="0" r="50" fill="url(#coin2Grad)"/>
-        <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="50" fill="white" opacity="0.2"/>
-        <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="45" ry="12" fill="white" opacity="0.35"/>
-        <!-- Ethereum symbol Ξ -->
-        <text x="0" y="10" font-size="40" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">Ξ</text>
-        <!-- Intense shine -->
-        <ellipse cx="-18" cy="-22" rx="18" ry="12" fill="white" opacity="0.5"/>
-        <!-- Additional glow -->
-        <ellipse cx="12" cy="-18" rx="14" ry="10" fill="white" opacity="0.2"/>
-      </g>
-
-      <!-- Coin 3 (Right) - Solana -->
-      <g transform="translate(370, 250)" filter="url(#heroShadow)">
-        <!-- Main coin circle with bright gradient -->
-        <circle cx="0" cy="0" r="45" fill="url(#coin3Grad)"/>
-        <!-- Bright highlight -->
-        <circle cx="0" cy="0" r="45" fill="white" opacity="0.2"/>
-        <!-- 3D edge -->
-        <ellipse cx="0" cy="0" rx="40" ry="8" fill="white" opacity="0.35"/>
-        <!-- Solana symbol ◎ -->
-        <text x="0" y="8" font-size="38" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">◎</text>
-        <!-- Intense shine -->
-        <ellipse cx="-15" cy="-20" rx="15" ry="10" fill="white" opacity="0.5"/>
-        <!-- Additional glow -->
-        <ellipse cx="10" cy="-15" rx="12" ry="8" fill="white" opacity="0.2"/>
-      </g>
-
-      <!-- Connecting arrows/flow -->
-      <!-- Left to center -->
-      <defs>
-        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-          <polygon points="0 0, 10 3, 0 6" fill="#06b6d4" opacity="0.6" />
-        </marker>
-      </defs>
-
-      <path d="M 175 250 Q 212.5 230 225 250" stroke="url(#wireGrad)" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-      <path d="M 325 250 Q 287.5 230 275 250" stroke="url(#wireGrad)" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowhead)"/>
-
-      <!-- Top center connections -->
-      <path d="M 250 160 Q 220 150 200 200" stroke="url(#wireGrad)" stroke-width="1.5" fill="none" opacity="0.3"/>
-      <path d="M 250 160 Q 280 150 300 200" stroke="url(#wireGrad)" stroke-width="1.5" fill="none" opacity="0.3"/>
-
-      <!-- Particle effects -->
-      <circle cx="100" cy="120" r="3" fill="#3b82f6" opacity="0.4"/>
-      <circle cx="400" cy="130" r="3" fill="#8b5cf6" opacity="0.4"/>
-      <circle cx="120" cy="380" r="2.5" fill="#06b6d4" opacity="0.4"/>
-      <circle cx="380" cy="370" r="2.5" fill="#3b82f6" opacity="0.4"/>
-      <circle cx="50" cy="250" r="2" fill="#a78bfa" opacity="0.3"/>
-      <circle cx="450" cy="260" r="2" fill="#06b6d4" opacity="0.3"/>
 
       <!-- Outer glow ring -->
       <circle cx="250" cy="250" r="240" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.2"/>
       <circle cx="250" cy="250" r="235" fill="none" stroke="#8b5cf6" stroke-width="0.5" opacity="0.15"/>
-
-      <!-- Bottom accent line -->
-      <line x1="80" y1="420" x2="420" y2="420" stroke="url(#wireGrad)" stroke-width="2" opacity="0.3"/>
     </svg>
   `;
 }
