@@ -23,9 +23,9 @@ export function renderAbout() {
               Our mission is to democratize blockchain adoption, making Web3 technology accessible and beneficial for organizations of all sizes and industries.
             </p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 text-center">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
             <div class="text-6xl mb-4">🎯</div>
-            <p class="text-gray-400">Transforming Business Through Blockchain</p>
+            <p class="text-amber-900 font-bold text-lg">Transforming Business Through Blockchain</p>
           </div>
         </div>
       </div>
