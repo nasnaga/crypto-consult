@@ -40,6 +40,22 @@ main {
   background-clip: text;
 }
 
+/* Brushed Gold Background */
+.bg-brushed-gold {
+  background-image: url('/brushed-gold.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.bg-brushed-gold h3,
+.bg-brushed-gold p,
+.bg-brushed-gold span {
+  font-weight: 700 !important;
+  color: #1e3a8a !important;
+}
+
 /* Smooth transitions */
 a, button {
   transition: all 0.3s ease;

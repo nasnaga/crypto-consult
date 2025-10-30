@@ -1,0 +1,70 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Base gold gradient -->
+    <linearGradient id="goldBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fcd34d;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Brushed effect filters -->
+    <filter id="brushed">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8 0.02" numOctaves="3" seed="2" />
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="0 1"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="0.5" />
+    </filter>
+
+    <!-- Shine overlay -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="10%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="20%" style="stop-color:#ffffff;stop-opacity:0.05" />
+      <stop offset="40%" style="stop-color:#ffffff;stop-opacity:0" />
+      <stop offset="60%" style="stop-color:#000000;stop-opacity:0" />
+      <stop offset="80%" style="stop-color:#000000;stop-opacity:0.05" />
+      <stop offset="90%" style="stop-color:#000000;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.2" />
+    </linearGradient>
+
+    <!-- Additional texture -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" />
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend mode="overlay" in2="SourceGraphic" />
+    </filter>
+  </defs>
+
+  <!-- Base gold layer -->
+  <rect width="1200" height="800" fill="url(#goldBase)" />
+
+  <!-- Brushed texture -->
+  <rect width="1200" height="800" fill="#f59e0b" filter="url(#brushed)" opacity="0.4" />
+
+  <!-- Shine effect -->
+  <rect width="1200" height="800" fill="url(#shine)" />
+
+  <!-- Subtle grain -->
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.15" />
+
+  <!-- Horizontal brush strokes - distributed across entire height -->
+  <g opacity="0.2">
+    <line x1="0" y1="40" x2="1200" y2="40" stroke="#fef3c7" stroke-width="1" opacity="0.6" />
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#fef3c7" stroke-width="0.5" opacity="0.4" />
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#fef3c7" stroke-width="1.5" opacity="0.7" />
+    <line x1="0" y1="220" x2="1200" y2="220" stroke="#b45309" stroke-width="0.5" opacity="0.3" />
+    <line x1="0" y1="280" x2="1200" y2="280" stroke="#fef3c7" stroke-width="1" opacity="0.5" />
+    <line x1="0" y1="340" x2="1200" y2="340" stroke="#fef3c7" stroke-width="0.8" opacity="0.6" />
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#b45309" stroke-width="0.5" opacity="0.4" />
+    <line x1="0" y1="460" x2="1200" y2="460" stroke="#fef3c7" stroke-width="1.2" opacity="0.5" />
+    <line x1="0" y1="520" x2="1200" y2="520" stroke="#fef3c7" stroke-width="0.7" opacity="0.6" />
+    <line x1="0" y1="580" x2="1200" y2="580" stroke="#b45309" stroke-width="0.5" opacity="0.3" />
+    <line x1="0" y1="640" x2="1200" y2="640" stroke="#fef3c7" stroke-width="1" opacity="0.5" />
+    <line x1="0" y1="700" x2="1200" y2="700" stroke="#fef3c7" stroke-width="0.9" opacity="0.6" />
+    <line x1="0" y1="760" x2="1200" y2="760" stroke="#b45309" stroke-width="0.6" opacity="0.4" />
+  </g>
+</svg>

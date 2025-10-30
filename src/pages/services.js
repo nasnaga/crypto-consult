@@ -40,7 +40,7 @@ export function renderServices() {
               </li>
             </ul>
           </div>
-          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
+          <div class="bg-brushed-gold rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
             <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${strategyIllustration()}</div>
             <p class="text-amber-800 text-lg">Strategic planning for Web3 transformation</p>
           </div>
@@ -48,7 +48,7 @@ export function renderServices() {
 
         <!-- Service 2 -->
         <div class="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
-          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
+          <div class="bg-brushed-gold rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
             <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${smartContractIllustration()}</div>
             <p class="text-amber-800 text-lg">Custom smart contract development</p>
           </div>
@@ -100,7 +100,7 @@ export function renderServices() {
               </li>
             </ul>
           </div>
-          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
+          <div class="bg-brushed-gold rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
             <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${securityIllustration()}</div>
             <p class="text-amber-800 text-lg">Enterprise-grade security solutions</p>
           </div>
@@ -108,7 +108,7 @@ export function renderServices() {
 
         <!-- Service 4 -->
         <div class="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
-          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
+          <div class="bg-brushed-gold rounded-lg p-12 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105 order-2 md:order-1" data-aos="zoom-in">
             <div class="w-32 h-32 mx-auto mb-4 filter drop-shadow-lg hover:drop-shadow-2xl transition">${defiIllustration()}</div>
             <p class="text-amber-800 text-lg">DeFi protocol expertise</p>
           </div>
