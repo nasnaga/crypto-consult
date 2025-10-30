@@ -36,29 +36,29 @@ export function renderAbout() {
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-white mb-12 text-center">Our Expert Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div class="bg-gray-900 rounded-lg p-8 text-center">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
             <div class="w-24 h-24 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍💼</div>
-            <h3 class="text-xl font-bold text-white mb-2">Alex Chen</h3>
-            <p class="text-blue-400 mb-3">Founder & Lead Consultant</p>
-            <p class="text-gray-400 text-sm">10+ years in blockchain with expertise in protocol design and tokenomics.</p>
+            <h3 class="text-2xl font-bold text-amber-950 mb-2">Alex Chen</h3>
+            <p class="text-amber-900 font-semibold mb-3">Founder & Lead Consultant</p>
+            <p class="text-amber-800">10+ years in blockchain with expertise in protocol design and tokenomics.</p>
           </div>
-          <div class="bg-gray-900 rounded-lg p-8 text-center">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
             <div class="w-24 h-24 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍💻</div>
-            <h3 class="text-xl font-bold text-white mb-2">Sarah Williams</h3>
-            <p class="text-blue-400 mb-3">Smart Contract Lead</p>
-            <p class="text-gray-400 text-sm">Certified security auditor with 8+ years of smart contract development.</p>
+            <h3 class="text-2xl font-bold text-amber-950 mb-2">Sarah Williams</h3>
+            <p class="text-amber-900 font-semibold mb-3">Smart Contract Lead</p>
+            <p class="text-amber-800">Certified security auditor with 8+ years of smart contract development.</p>
           </div>
-          <div class="bg-gray-900 rounded-lg p-8 text-center">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
             <div class="w-24 h-24 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👨‍🔬</div>
-            <h3 class="text-xl font-bold text-white mb-2">David Park</h3>
-            <p class="text-blue-400 mb-3">Security Expert</p>
-            <p class="text-gray-400 text-sm">Penetration tester and security researcher specializing in DeFi protocols.</p>
+            <h3 class="text-2xl font-bold text-amber-950 mb-2">David Park</h3>
+            <p class="text-amber-900 font-semibold mb-3">Security Expert</p>
+            <p class="text-amber-800">Penetration tester and security researcher specializing in DeFi protocols.</p>
           </div>
-          <div class="bg-gray-900 rounded-lg p-8 text-center">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 text-center border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
             <div class="w-24 h-24 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">👩‍💼</div>
-            <h3 class="text-xl font-bold text-white mb-2">Jessica Moore</h3>
-            <p class="text-blue-400 mb-3">Compliance Officer</p>
-            <p class="text-gray-400 text-sm">Regulatory specialist with expertise in crypto compliance frameworks.</p>
+            <h3 class="text-2xl font-bold text-amber-950 mb-2">Jessica Moore</h3>
+            <p class="text-amber-900 font-semibold mb-3">Compliance Officer</p>
+            <p class="text-amber-800">Regulatory specialist with expertise in crypto compliance frameworks.</p>
           </div>
         </div>
       </div>
@@ -69,29 +69,29 @@ export function renderAbout() {
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-white mb-12 text-center">Our Values</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-blue-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Integrity</h3>
-            <p class="text-gray-300">We maintain the highest ethical standards in all client relationships and technical work.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Integrity</h3>
+            <p class="text-amber-800">We maintain the highest ethical standards in all client relationships and technical work.</p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-blue-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Excellence</h3>
-            <p class="text-gray-300">We deliver exceptional quality through rigorous standards and continuous improvement.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Excellence</h3>
+            <p class="text-amber-800">We deliver exceptional quality through rigorous standards and continuous improvement.</p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-blue-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Innovation</h3>
-            <p class="text-gray-300">We stay at the forefront of blockchain technology to provide cutting-edge solutions.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Innovation</h3>
+            <p class="text-amber-800">We stay at the forefront of blockchain technology to provide cutting-edge solutions.</p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-purple-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Transparency</h3>
-            <p class="text-gray-300">We communicate clearly about costs, timelines, and outcomes with all stakeholders.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Transparency</h3>
+            <p class="text-amber-800">We communicate clearly about costs, timelines, and outcomes with all stakeholders.</p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-purple-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Collaboration</h3>
-            <p class="text-gray-300">We work closely with clients as true partners in achieving their Web3 goals.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Collaboration</h3>
+            <p class="text-amber-800">We work closely with clients as true partners in achieving their Web3 goals.</p>
           </div>
-          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-purple-500">
-            <h3 class="text-2xl font-bold text-white mb-4">Security</h3>
-            <p class="text-gray-300">We prioritize the protection of assets and data in all our engagements.</p>
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 rounded-lg p-8 border border-amber-400 hover:border-amber-500 transition transform hover:scale-105">
+            <h3 class="text-2xl font-bold text-amber-950 mb-4">Security</h3>
+            <p class="text-amber-800">We prioritize the protection of assets and data in all our engagements.</p>
           </div>
         </div>
       </div>
