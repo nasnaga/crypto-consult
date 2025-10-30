@@ -95,29 +95,29 @@ export function renderHome() {
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-white mb-12 text-center" data-aos="fade-up">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="0">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 border border-amber-400 rounded-lg p-8 hover:border-amber-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="0">
             <div class="w-24 h-24 mb-4 filter drop-shadow-lg group-hover:drop-shadow-2xl transition">${strategyIllustration()}</div>
-            <h3 class="text-xl font-bold text-white mb-3">Strategy & Consulting</h3>
-            <p class="text-gray-400">Blockchain adoption roadmaps, market analysis, and strategic planning for your organization.</p>
-            <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
+            <h3 class="text-xl font-bold text-amber-950 mb-3">Strategy & Consulting</h3>
+            <p class="text-amber-800">Blockchain adoption roadmaps, market analysis, and strategic planning for your organization.</p>
+            <div class="mt-4 h-1 bg-gradient-to-r from-amber-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
           </div>
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="100">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 border border-amber-400 rounded-lg p-8 hover:border-amber-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="100">
             <div class="w-24 h-24 mb-4 filter drop-shadow-lg group-hover:drop-shadow-2xl transition">${smartContractIllustration()}</div>
-            <h3 class="text-xl font-bold text-white mb-3">Smart Contracts</h3>
-            <p class="text-gray-400">Development, audit, and optimization of smart contracts on Ethereum, Solana, and other chains.</p>
-            <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
+            <h3 class="text-xl font-bold text-amber-950 mb-3">Smart Contracts</h3>
+            <p class="text-amber-800">Development, audit, and optimization of smart contracts on Ethereum, Solana, and other chains.</p>
+            <div class="mt-4 h-1 bg-gradient-to-r from-amber-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
           </div>
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="200">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 border border-amber-400 rounded-lg p-8 hover:border-amber-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="200">
             <div class="w-24 h-24 mb-4 filter drop-shadow-lg group-hover:drop-shadow-2xl transition">${securityIllustration()}</div>
-            <h3 class="text-xl font-bold text-white mb-3">Security Audit</h3>
-            <p class="text-gray-400">Comprehensive security audits and vulnerability assessments for blockchain projects.</p>
-            <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
+            <h3 class="text-xl font-bold text-amber-950 mb-3">Security Audit</h3>
+            <p class="text-amber-800">Comprehensive security audits and vulnerability assessments for blockchain projects.</p>
+            <div class="mt-4 h-1 bg-gradient-to-r from-amber-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
           </div>
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-lg p-8 hover:border-blue-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="300">
+          <div class="bg-gradient-to-r from-yellow-300 via-yellow-200 to-amber-300 border border-amber-400 rounded-lg p-8 hover:border-amber-500 hover:shadow-xl transition transform hover:scale-105 cursor-pointer group" data-aos="fade-up" data-aos-delay="300">
             <div class="w-24 h-24 mb-4 filter drop-shadow-lg group-hover:drop-shadow-2xl transition">${defiIllustration()}</div>
-            <h3 class="text-xl font-bold text-white mb-3">DeFi Advisory</h3>
-            <p class="text-gray-400">Expert guidance on DeFi protocols, tokenomics design, and financial risk management.</p>
-            <div class="mt-4 h-1 bg-gradient-to-r from-blue-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
+            <h3 class="text-xl font-bold text-amber-950 mb-3">DeFi Advisory</h3>
+            <p class="text-amber-800">Expert guidance on DeFi protocols, tokenomics design, and financial risk management.</p>
+            <div class="mt-4 h-1 bg-gradient-to-r from-amber-500 to-transparent w-0 group-hover:w-full transition-all duration-500"></div>
           </div>
         </div>
       </div>
